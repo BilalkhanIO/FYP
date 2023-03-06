@@ -1,0 +1,8 @@
+.app__navbar {
+    border-radius: 2px solid black;
+    width: 100%;
+    background-color: black;
+}
+.navbar__links {
+    color: var(--color-golden);
+}
