@@ -1,0 +1,106 @@
+/* For as whole header  */
+
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    padding: 0.5rem  4rem;
+}
+
+/* For as logo  */
+
+.logo a{
+    text-decoration: none;
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    color: var(--color-golden);
+}
+
+/* For a whole Navbar 
+    which include links 
+    add to cart icon
+    and login button 
+
+*/
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* For navbar links
+    to inline the items 
+*/
+
+.navbar__item{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 1.5rem;    
+}
+
+/* for navbar ancher tag 
+*/
+.navbar__item_link{
+    font-family: var(--font-phara);
+    color: var(--color-white);
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 0 1rem;
+    
+    
+}
+
+/* For navbar buttons 
+    add to cart and login/regsiter
+*/
+
+.navbar__btn{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+}
+/* add to cart icon and span  
+*/
+.navbar__cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.navbar__cart-icon{
+    font-size: 37px;
+    padding: 8px;
+    border-radius: 10px;
+    color: var(--color-black);
+    background-color: var(--color-white);
+    
+}
+.navbar__cart span{
+    position: relative;
+    right: 12px;
+    bottom: 17px;
+    color: var(--color-white);
+    background-color: var(--color-black);
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-family: var(--font-phara);
+    font-size: 10px;
+    text-align: center;
+    
+}
+.navbar__login{
+    font-family: var(--font-phara);
+    background-color: transparent;
+    color: var(--color-white);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px  10px;
+    text-decoration: none;
+}
