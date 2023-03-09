@@ -9,7 +9,7 @@ import Login from './components/Login/Login';
 
 function App() {
   return (
-  
+    <>
     <Router>
        <Routes>
           <Route path='/' element={<Home/>}/>
@@ -18,6 +18,8 @@ function App() {
          
         </Routes>
     </Router>
+        
+   
   )
 }
 
