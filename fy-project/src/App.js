@@ -6,17 +6,22 @@ import Home from './component/Screen/Home';
 import Navbar from './component/Navbar/Navbar'
 import Signup from './component/Signup/Signup';
 import Login from './component/Login/Login';
+import Review from './component/review/review';
+import Footer from './component/footer/footer';
 
 function App() {
   return (
+    <>
     <Router>
        <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path="/login" element={<Login/>} />
           <Route path='/signup' element={<Signup/>}/>
+         
         </Routes>
     </Router>
-        
+     <Footer/>
+     </>
    
   )
 }
