@@ -2,12 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
 
-import Home from './component/Screen/Home';
-import Navbar from './component/Navbar/Navbar'
-import Signup from './component/Signup/Signup';
-import Login from './component/Login/Login';
-import Review from './component/review/review';
-import Footer from './component/footer/footer';
+import Home from './components/Screen/Home';
+import Navbar from './components/Navbar/Navbar'
+import Signup from './components/Signup/Signup';
+import Login from './components/Login/Login';
 
 function App() {
   return (
@@ -20,9 +18,6 @@ function App() {
          
         </Routes>
     </Router>
-     <Footer/>
-     </>
-   
   )
 }
 
