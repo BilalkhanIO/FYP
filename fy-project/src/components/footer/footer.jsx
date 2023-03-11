@@ -8,7 +8,7 @@ import './footer.css';
                 <h3 className='footer__h3'>Learn more</h3>
                 <ul className="unorder__list">
                     <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
+                    <li><link to="../about">About</link></li>
                     <li><a href="/">Learn more</a></li>
 
                 </ul>
