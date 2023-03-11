@@ -1,60 +1,48 @@
-/* .review{
+.review {
     background-color: var(--color-bg);
 }
-.review__h{
-    padding-top:5px;
+
+.review__h {
+    padding-top: 5px;
     text-align: center;
     font-family: var(--font-heading);
     color: #E58F00;
 }
-.review__container{
+
+.review__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-.main_div{
+
+.review__list_item {
     background-color: white;
     width: 230px;
     height: 250px;
-   margin-top: 20px;
-   /* margin-left: 90px; */
-   border: 2px solid #E58F00;
-   border-radius: 20px;
+    margin-top: 20px;
+    border: 2px solid #E58F00;
+    border-radius: 20px;
 }
-.name{
+
+.list__item_name {
     margin-left: 60px;
-  }
-  .phara{
+}
+
+.item__review {
     margin-top: 20px;
 }
-.phara h{
+
+.item__review_h{
     text-align: center;
     padding-bottom: 10px;
     color: #E58F00;
     font-family: var(--font-heading);
 }
-.phara p{
+
+.item__review_p{
     background-color: white;
     margin-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
-.main_div1{
-    background-color: white;
-    width: 230px;
-    height: 300px;
-   margin-top: 20px;
-   margin-left: 12px;
-   border: 2px solid #E58F00;
-   border-radius: 20px;
-}
-.main_div2{
-    background-color: white;
-    width: 230px;
-    height: 250px;
-   margin-top: 20px;
-   margin-left: 12px;
-   border: 2px solid #E58F00;
-   border-radius: 15px;
-} */
