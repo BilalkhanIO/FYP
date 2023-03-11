@@ -1,0 +1,23 @@
+.background_image {
+  background-image: url(../../assets/images/imageabout.jfif);
+  background-size: cover;
+  
+}
+.section__main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section__main_h {
+  font-size: 60px;
+  color: var(--color-golden);
+  padding-left: 100px;
+}
+
+.section__phara {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+  padding-left: 100px;
+}
