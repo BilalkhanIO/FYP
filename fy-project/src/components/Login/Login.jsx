@@ -67,9 +67,9 @@ function Login() {
         <li className="form__list_item">
           <button className="form__btn" type="submit">Login</button>
 
-          <a className="list__item_a">
+          <link to='#' className="list__item_a">
             Forgot password
-          </a>
+          </link>
         </li>
       </ul>
       <p className="login__form_p">

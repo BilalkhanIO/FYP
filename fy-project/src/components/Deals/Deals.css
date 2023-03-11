@@ -1,0 +1,65 @@
+.deals {
+  width: 100%;
+  background-color: var(--color-bg);
+  list-style: none;
+}
+
+.deal {
+  display: flex;
+  height: 18rem;
+  width: 80%;
+  background-color: var(--color-black);
+  margin: 2rem auto;
+  box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.719);
+  border: 1px rgb(53, 53, 53) solid;
+  border-radius: 15px;
+}
+
+.deal__image{
+  background-image: url(../../assets/images/deal.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 35rem;
+  height: 18rem;
+  border-radius: 15px;
+}
+
+.deal__header{
+  font-family: var(--font-phara);
+  color: var(--color-white);
+  font-size: 1.5rem;
+}
+.deal__text{
+  margin: auto 1rem;
+}
+.deal__off{
+  font-family: var(--font-heading);
+  color: var(--color-golden);
+  font-size: 4rem;
+}
+.deal__desc{
+  font-family: var(--font-phara);
+  color: var(--color-white2);
+  font-size: 1rem;
+
+}
+.deal__btn-price{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.deal__price{
+  font-size: 1.5rem;
+  font-family: var(--font-heading);
+  color: var(--color-golden);
+}
+
+.deal__btn{
+    background-color: var(--color-golden);
+    font-family: var(--font-phara);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-black);
+    padding: 0.3rem 1.2rem;
+    border-radius: 10px;
+}

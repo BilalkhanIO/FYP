@@ -10,7 +10,7 @@
 .hero__text_section{
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     margin-left: 8rem; 
     margin-top: 4rem;
     height: 85vh;
