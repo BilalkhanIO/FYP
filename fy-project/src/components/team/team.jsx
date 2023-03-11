@@ -20,9 +20,7 @@ function Team() {
           <p className="team__img_phara">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
             excepturi harum vitae accusamus sapiente nihil expedita eos
-            molestias maiores ipsa similique tempora officiis, beatae,
-            laboriosam dignissimos modi. Molestias id aspernatur officiis, modi
-            sit, blanditiis dicta, repellendus obcaecati quos vitae itaque!
+            molestias maiores ipsa similique tempora officiis, repellendus obcaecati quos vitae itaque!
           </p>
         </div>
         <div className="team__img">

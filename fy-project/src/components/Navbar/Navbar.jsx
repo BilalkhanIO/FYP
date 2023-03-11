@@ -14,7 +14,7 @@ function Navbar() {
             <nav className='navbar'>
                 <ul className='navbar__item'>
                     <li><Link to='/' className='navbar__item_link' href="#home">Home</Link></li>
-                    <li><a className='navbar__item_link' href="#about">About</a></li>
+                    <li><link to='../about' className='navbar__item_link' href="#about">About</link></li>
                     <li><a className='navbar__item_link' href="#menu">Menu</a></li>
                     <li><a className='navbar__item_link' href="#Contact-us">Contact Us</a></li>
                 </ul>
