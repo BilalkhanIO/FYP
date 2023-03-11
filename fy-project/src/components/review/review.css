@@ -1,4 +1,4 @@
-/* .review{
+.review{
     background-color: var(--color-bg);
 }
 .review__h{
@@ -18,10 +18,8 @@
     width: 230px;
     height: 250px;
    margin-top: 20px;
-   /* margin-left: 90px; */
-   border: 2px solid #E58F00;
-   border-radius: 20px;
 }
+ 
 .name{
     margin-left: 60px;
   }
@@ -57,4 +55,4 @@
    margin-left: 12px;
    border: 2px solid #E58F00;
    border-radius: 15px;
-} */
+}
