@@ -1,23 +1,23 @@
+/* about section background image css */
 .background_image {
-  background-image: url(../../assets/images/imageabout.jfif);
+  background-image: url(../../assets/images/imageabout.jpg);
   background-size: cover;
   
 }
+/* about section main div css */
 .section__main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+  width: 90%;
+  padding: 3rem 10rem;
 }
-
+/* about section header */
 .section__main_h {
-  font-size: 60px;
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
   color: var(--color-golden);
-  padding-left: 100px;
+  margin-bottom: 2rem;
 }
-
+/* about section desc */
 .section__phara {
-  font-size: 18px;
-  margin-bottom: 10px;
-  color: white;
-  padding-left: 100px;
+  font-size: 1.5rem;
+  color: var(--color-white);
 }

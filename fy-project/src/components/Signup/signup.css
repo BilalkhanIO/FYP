@@ -1,3 +1,4 @@
+/* sign up form section */
 .signup__form {
     display: flex;
     flex-direction: column;
@@ -7,7 +8,7 @@
     font-family: var(--font-phara);
     color: var(--color-golden);
 }
-
+/* signup form header */
 .signup__form_h {
     font-family: var(--font-heading);
     margin-bottom: 2rem;
@@ -15,7 +16,7 @@
     color: var(--color-white);
 }
 
-
+/* signup form input list */
 
 .signup__form_input{
     font-size: 1rem;
@@ -24,15 +25,15 @@
     padding: 0;
     margin: 0;
 }
-
+/* sign up form list item */
 .form__list_item{
     margin-bottom: 1.5rem;
 }
-
+/* signup form input labels */
 .form__label {
     display: block;
 }
-
+/* signup form input fields */
 .form__input_field {
     display: block;
     border: 1px solid var(--color-golden);
@@ -42,7 +43,7 @@
     height: 2.3rem;
     padding: 0.6rem;
 }
-
+/* signup form submit button   */
 .form__btn {
     display: block;
     width: 15rem;
@@ -57,19 +58,21 @@
     font-weight: bold;
 
 }
+/* signup form submit button hover effect */
 .form__btn:hover {
     background-color: rgb(255, 145, 0);
 }
-
+/* already have an account pharagraph */
 .signup__form_p {
     margin-bottom: 2rem;
     color: var(--color-white);
 }
-
+/*  link in already have an account pharagraph to login */
 .signup__form_p_a {
     color: var(--color-golden);
     text-decoration: none;
 }
+/* hover effect */
 .signup__form_p_a:hover {
     color: rgb(255, 145, 0);
   }
