@@ -26,7 +26,7 @@ function Login() {
   return (
 
     <form className="login__form" onSubmit={handleSubmit}>
-      <Navbar/>
+      <Navbar />
       <h2 className="login__form_h">
         Welcome back, foodie! Login to your account
       </h2>
@@ -67,9 +67,9 @@ function Login() {
         <li className="form__list_item">
           <button className="form__btn" type="submit">Login</button>
 
-          <link to='#' className="list__item_a">
+          <Link to='#' className="list__item_a">
             Forgot password
-          </link>
+          </Link>
         </li>
       </ul>
       <p className="login__form_p">
@@ -77,7 +77,7 @@ function Login() {
         <Link
           to="/signup"
           className="login__form_p_a"
-          > Sign up</Link>
+        > Sign up</Link>
       </p>
     </form>
   );

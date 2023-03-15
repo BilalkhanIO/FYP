@@ -64,7 +64,7 @@
     justify-content: right;
     
 }
-/* add to cart icon and span  
+/* add to cart icon and span section 
 */
 .navbar__cart{
     display: flex;
@@ -72,6 +72,7 @@
     align-items: center;
     text-decoration: none;
 }
+/* navbar cart icon */
 .navbar__cart-icon{
     font-size: 37px;
     padding: 8px;
@@ -80,7 +81,8 @@
     background-color: var(--color-white);
     
 }
-.navbar__cart span{
+/* navbar cart span */
+.navbar__cart_span{
     position: relative;
     right: 12px;
     bottom: 17px;
@@ -95,6 +97,7 @@
     text-align: center;
     
 }
+/* navbar login and register button */
 .navbar__login{
     font-family: var(--font-phara);
     background-color: transparent;

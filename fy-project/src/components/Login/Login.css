@@ -1,3 +1,4 @@
+/* login form section */
 .login__form {
   display: flex;
   flex-direction: column;
@@ -8,6 +9,8 @@
   color: var(--color-golden);
 }
 
+/* login form header */
+
 .login__form_h {
   font-family: var(--font-heading);
   margin-bottom: 2rem;
@@ -15,6 +18,7 @@
   color: var(--color-white);
 }
 
+/* login form input element list */
 .login__form_input {
   font-size: 1rem;
   font-weight: 400;
@@ -23,18 +27,22 @@
   margin: 0;
 }
 
+/* login form list item */
 .form__list_item {
   margin-bottom: 1.5rem;
 }
 
+/* login form password item */
 .form__list_item_c {
   margin-bottom: 0.8rem;
 }
 
+/* login form input elements labels */
 .form__label {
   display: block;
 }
 
+/* login form input fields */
 .form__input_field {
   display: block;
   border: 1px solid var(--color-golden);
@@ -46,12 +54,14 @@
   padding: 0.6rem;
 }
 
+/* login form checkbox item */
 .form__checkbox {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
 }
 
+/* checkbox input element */
 .form__checkbox_input {
   background-color: var(--color-golden);
   width: auto;
@@ -60,10 +70,12 @@
   border-radius: 1px solid var(--color-golden);
 }
 
+/* pharagraph with checkbox */
 .form__checkbox_p {
   margin-left: 0.5rem;
 }
 
+/* login form subbmit button */
 .form__btn {
   display: block;
   width: 18rem;
@@ -79,26 +91,32 @@
 
 }
 
+/* login form subbmit button hover effect */
 .form__btn:hover {
   background-color: rgb(255, 145, 0);
 }
 
-.listt__item_a {
+/* forgot password pharagraph */
+.list__item_a {
   display: block;
   text-decoration: none;
   text-align: center;
   color: var(--color-golden);
 }
 
+/*don't have account pharagraph */
 .login__form_p {
   margin-bottom: 2rem;
   color: var(--color-white);
 }
 
+/* link in don't have a account pharagraph */
 .login__form_p_a {
   color: var(--color-golden);
   text-decoration: none;
 }
+
+/* hover effect on link */
 .login__form_p_a:hover {
   color: rgb(255, 145, 0);
 }

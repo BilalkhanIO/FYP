@@ -1,73 +1,92 @@
 /* main section */
-.section {
-  background-color: black;
+.ourteam__section {
+  background-image: url(../../assets/images/ourteambg.jpg);
+  padding: 4rem 0;
+
+}
+.ourteam__section_header {
+  text-align: center;
+  font-family: var(--font-heading);
+  color: var(--color-golden);
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+.ourteam{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
 
 }
 /* css for three div inside a main section */
-.section__container {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-/* css for our team */
-.section__title {
-  text-align: center;
-  color: var(--color-golden);
-  font-weight: 600;
-  font-size: 79px;
-}
-
-/* css for whole div */
-.team__img {
+.ourteam__card {
   display: flex;
   flex-direction: column;
-  width: 248px;
-  border: 2px solid #e58f00;
-  height: 400px;
-  margin-top: 30px;
-  margin-left: 70px;
+  width: 14rem;
+  height: 22rem;
+  background-color: var(--color-black);
+  border: 1px rgb(53, 53, 53) solid;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.719);
 }
-/* css for the second div */
-.team__img_second {
+.ourteam__center_card {
   display: flex;
   flex-direction: column;
-  width: 248px;
-  border: 2px solid #e58f00;
-  height: 500px;
-  margin-top: 30px;
-  margin-left: 70px;
+  width: 17rem;
+  height: 27rem;
+  background-color: var(--color-black);
+  border: 1px rgb(53, 53, 53) solid;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.719);
 }
-/* css for image  */
 
+<<<<<<< HEAD
 .bgimage {
   background-image: url(../../assets/images/team.jpg);
   width: 244px;
   height: 300px;
+=======
+.ourteam__card_image {
+  background-image: url(../../assets/images/team.jpg);
+>>>>>>> 3b80b963c27854608eb7044a6dd1413cb95b42d7
   background-size: cover;
+  background-position: center;
+  padding: 2px;
+  height: 50%;
+  border: none;
+  border-radius: 0 0 10px 10px ;
 }
 
-/* css for name styling and font family */
-
-.team__img_heading {
+.ourteam__card_text{
+  padding: 10px;
+}
+.ourteam__center-card_h {
   padding-top: 8px;
-  padding-left: 4px;
-  font-family: var(--font-phara);
+  font-family: var(--font-heading);
   color: var(--color-golden);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.ourteam__card_h {
+  padding-top: 8px;
+  font-family: var(--font-heading);
+  color: var(--color-golden);
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
-/* css for paragraph decription */
-
-.team__img_phara {
+.ourteam__center-card_p {
   padding-top: 9px;
-  padding-left: 4px;
-  color: white;
   font-family: var(--font-phara);
-  font-style: normal;
+  color: var(--color-white2);
   font-weight: 400;
-  font-size: 17px;
+  font-size: 1rem;
+  line-height: 125%;
+}
+.ourteam__card_p {
+  padding-top: 6px;
+  font-family: var(--font-phara);
+  color: var(--color-white2);
+  font-weight: 400;
+  font-size: 0.9rem;
   line-height: 125%;
 }

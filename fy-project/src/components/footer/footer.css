@@ -1,34 +1,58 @@
-
+/* footer section */
 .footer{
+    padding: 1rem;
+    background-color: rgb(19, 19, 19);
+    border-top: 1px solid rgb(48, 48, 48); 
+}
+/* footer section list */
+.footer__item{
     display: flex;
     justify-content:space-around;
-    background-color: #1d1d1d;
-    color: aliceblue;
-    
+    list-style: none; 
+    padding-bottom: 1rem;   
 }
-.footer__h3{
+/* footer section header */
+.footer__h{
     font-family: var(--font-heading);
-    margin-top: 1.4rem;
-
+    color: var(--color-white);
+    font-size: 1rem;
+    letter-spacing: 1.5px;
 }
-.unorder__list{
-    padding-left: 0;
-    margin-top: 0.3rem;
+/* nested list in footer section list */
+.footer__sub_list{
+   padding: 0.5rem 0;
 }
-
-.unorder__list li {
-    
-    display: flex;
-    flex-direction: column;
+/* nested list items */
+.sub__list_item {
     list-style-type: none;
     padding-left: 0px;
-    color: aliceblue;
-    text-decoration: none;
-    font-size: var(--font-heading);
 }
-.unorder__list li a{
-    display: flex;
-    list-style-type: none;
-    color: aliceblue;
+/* nested list item links */
+.sub__list_link{
+    font-family: var(--font-phara);
+    color: var(--color-white2);
+    font-size: 0.8rem;
+    font-weight: normal;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    white-space: 2px;
+}
+/* icons for social media and contacts in nested list link */
+.footer__icon{
+    margin-right: 3px;    
+}
+/* line between footer items and copyright section */
+.footer__line{
+    border: none;
+    height: 1px;
+    background-color: rgb(48, 48, 48);
+}
+/* copyright section */
+.footer__copyright{
+    font-family: var(--font-phara);
+    color: var(--color-white2);
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
 }

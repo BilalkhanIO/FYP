@@ -1,9 +1,14 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
-import Hero from '../../assets/images/Hero.jpg'
+import Deals from '../Deals/Deals';
+import Team from '../Team/Team';
+import About from '../About/About';
+import Review from '../Review/Review';
+import Footer from '../Footer/Footer';
 
 import './Home.css';
 import { Link } from 'react-router-dom';
+
 export default function Home() {
   return (
     
@@ -17,6 +22,11 @@ export default function Home() {
           <Link to="" className='hero__text_btn'>ORDER NOW</Link>
         </div>  
       </div>
+      <Deals/>
+      <Team/>
+      <About/>
+      <Review/>
+      <Footer/>
     </div>
   
     
