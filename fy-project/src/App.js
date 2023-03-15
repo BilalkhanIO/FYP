@@ -11,7 +11,7 @@ import About from './components/About/About';
 
 function App() {
   return (
-    <>
+    
     <Router>
        <Routes>
           <Route path='/' element={<Home/>}/>
@@ -21,7 +21,7 @@ function App() {
           <Route path='/footer' element={<Footer/>}/>
         </Routes>  
     </Router>
-    </>  
+    
   );
 }
 
