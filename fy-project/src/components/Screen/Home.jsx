@@ -6,6 +6,8 @@ import './Home.css';
 import { Link } from 'react-router-dom';
 export default function Home() {
   return (
+    
+   
     <div className='home'>
       <div className='hero__background_img'>
         <Navbar />
@@ -16,5 +18,7 @@ export default function Home() {
         </div>  
       </div>
     </div>
+  
+    
   )
 }

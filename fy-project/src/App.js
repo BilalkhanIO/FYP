@@ -6,20 +6,21 @@ import Home from './components/Screen/Home';
 import Signup from './components/Signup/Signup';
 import Login from './components/Login/Login';
 import About from './components/about/about';
+import Menu from './components/Menu/Menu';
 
 
 function App() {
   return (
-    // <Router>
-    //    <Routes>
-    //       <Route path='/' element={<Home/>}/>
-    //       <Route path='/about' element={<About/>}/>
-    //       <Route path="/login" element={<Login/>} />
-    //       <Route path='/signup' element={<Signup/>}/>
+    <Router>
+       <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/about' element={<About/>}/>
+          <Route path="/login" element={<Login/>} />
+          <Route path='/signup' element={<Signup/>}/>
 
-    //     </Routes> 
-    // </Router>
-    <Menu/>
+        </Routes>
+        <Menu/> 
+    </Router>   
         
   );
 }

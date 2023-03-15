@@ -1,10 +1,16 @@
+/*  background color  */
+
 .background__menu{
     background-color: black;
     height: 100vh;
 }
-.menu__section{
+
+/* .menu__section{
     display: flex;
-}
+} */
+
+ /* change font-style fontweight of menu heading */
+
 .menu__heading{
     text-align: center;
     font-family: var(--font-heading);
@@ -12,19 +18,21 @@
     padding-top: 20px;
     color: #E58F00;
 }
-.section__label{
+   /* set border color width and height   */
+.section__label_border{
+    align-content: center;
+    display: flex;
     border: 2px dotted #E58F00;
     border-radius: 10px;
     width: 700px;
     height: 90px;
-    margin-left: 295px;
-    margin-top: 30px;
-    align-content: center;
-    display: flex;
+    /* margin-left: 295px; */
+    margin: auto;
     justify-content: space-around;
-    
 }
-.section__labels{
+
+   /* add style to label inside dotted border */
+.section__label{
     background-color: white; 
     width: 50px;
     height: 50px; 
@@ -32,12 +40,17 @@
     margin-top: 20px;
     border-radius: 12px;
 }
-.section__labels p{
+
+ 
+  /* set label text inside label */
+.section__label p{
     text-align: center;
     margin: 13px;
     font-size: 11px;
     color: #E58F00;
 }
+
+  /* menu Heading  */
 .menu__h{
     color:#E58F00;
     text-align: center;
@@ -49,14 +62,7 @@
     font-family: var(--font-heading);
     font-weight: 600px;
 }
-.menu{
-    background-color: aliceblue;
-    width: 205px;
-    height: 240px;
-    margin-left:120px;
-    margin-top: 10px;
-    border-radius: 15px;
-}
+/* menu width and height */
 .image__section{
     background-color: white;
     width: 250px;
@@ -64,6 +70,7 @@
     margin-left: 160px;
     border-radius: 15px;
 }
+/* menu image */
 .image{
     width: 246px;
     margin: 2px;
@@ -74,12 +81,14 @@
     background-size: cover;
     border-radius: 14px;
 }
+/* menu image name */
 .dish__name{
     padding-left: 4px;
     padding-top: 3px;
     color: var(--color-golden);
     font-family: var(--font-phara);
 }
+
 .dish__phara{
     padding-left: 4px;
     padding-top: 3px;

@@ -4,22 +4,24 @@ import "./menu.css";
 function Menu() {
   return (
     <menu className="background__menu">
+
       <h1 className="menu__heading">Discover Menus</h1>
-      <div className="section__label">
-        <div className="section__labels">
+
+      <div className="section__label_border">
+        <div className="section__label">
           <p>Label 1</p>
         </div>
-        <div className="section__labels">
-          <p><a href="">Label 2</a></p>
+        <div className="section__label">
+          <p>Label 2</p>
         </div>
-        <div className="section__labels">
+        <div className="section__label">
           <p>Label 3</p>
         </div>
-        <div className="section__labels">
+        <div className="section__label">
           <p>Label 4</p>
         </div>
       </div>
-      <h2 className="menu__h"></h2>
+      <h2 className="menu__h">Discover Menu</h2>
       <div className="image__section">
         <div>
             <img className="image" />
