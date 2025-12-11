@@ -62,7 +62,7 @@ function Login() {
             type="checkbox"
             name="keep-me-logged-in"
             id="keepMeLoggedIn" />
-          <p className="form__checkbox_p">Keep me logged in</p>
+          <label htmlFor="keepMeLoggedIn" className="form__checkbox_p">Keep me logged in</label>
         </li>
         <li className="form__list_item">
           <button className="form__btn" type="submit">Login</button>
