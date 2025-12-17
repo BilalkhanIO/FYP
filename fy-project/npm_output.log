@@ -1,0 +1,106 @@
+
+> fy-project@0.1.0 start
+> react-scripts start
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+(node:2615) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2615) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Failed to compile.
+
+[eslint]
+src/components/Navbar/Navbar.jsx
+Syntax error: Unexpected token (17:1) (17:1)
+WARNING in [eslint]
+src/App.js
+  Line 1:16:  'Component' is defined but never used  no-unused-vars
+
+ERROR in ./src/App.js 10:0-48
+Module not found: Error: Can't resolve './components/Footer/Footer' in '/app/fy-project/src'
+
+ERROR in ./src/App.js 11:0-45
+Module not found: Error: Can't resolve './components/About/About' in '/app/fy-project/src'
+
+ERROR in ./src/components/Navbar/Navbar.jsx
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /app/fy-project/src/components/Navbar/Navbar.jsx: Unexpected token (17:1)
+
+  15 |                 <ul className='navbar__item'>
+  16 |                     <li><Link to='/' className='navbar__item_link' href="#home">Home</Link></li>
+> 17 | <<<<<<< HEAD
+     |  ^
+  18 |                     <li><Link to='/about' className='navbar__item_link' href="#about">About</Link></li>
+  19 |                     <li><a className='navbar__item_link' href="#menu">Menu</a></li>
+  20 |                     <li><a className='navbar__item_link' href="#Contact-us">Contact Us</a></li>
+    at instantiate (/app/fy-project/node_modules/@babel/parser/lib/index.js:64:32)
+    at constructor (/app/fy-project/node_modules/@babel/parser/lib/index.js:364:12)
+    at FlowParserMixin.raise (/app/fy-project/node_modules/@babel/parser/lib/index.js:3253:19)
+    at FlowParserMixin.unexpected (/app/fy-project/node_modules/@babel/parser/lib/index.js:3283:16)
+    at FlowParserMixin.jsxParseIdentifier (/app/fy-project/node_modules/@babel/parser/lib/index.js:6785:12)
+    at FlowParserMixin.jsxParseNamespacedName (/app/fy-project/node_modules/@babel/parser/lib/index.js:6792:23)
+    at FlowParserMixin.jsxParseElementName (/app/fy-project/node_modules/@babel/parser/lib/index.js:6801:21)
+    at FlowParserMixin.jsxParseOpeningElementAt (/app/fy-project/node_modules/@babel/parser/lib/index.js:6881:22)
+    at FlowParserMixin.jsxParseElementAt (/app/fy-project/node_modules/@babel/parser/lib/index.js:6906:33)
+    at FlowParserMixin.jsxParseElementAt (/app/fy-project/node_modules/@babel/parser/lib/index.js:6918:32)
+    at FlowParserMixin.jsxParseElementAt (/app/fy-project/node_modules/@babel/parser/lib/index.js:6918:32)
+    at FlowParserMixin.jsxParseElementAt (/app/fy-project/node_modules/@babel/parser/lib/index.js:6918:32)
+    at FlowParserMixin.jsxParseElement (/app/fy-project/node_modules/@babel/parser/lib/index.js:6975:17)
+    at FlowParserMixin.parseExprAtom (/app/fy-project/node_modules/@babel/parser/lib/index.js:6987:19)
+    at FlowParserMixin.parseExprSubscripts (/app/fy-project/node_modules/@babel/parser/lib/index.js:10859:23)
+    at FlowParserMixin.parseUpdate (/app/fy-project/node_modules/@babel/parser/lib/index.js:10842:21)
+    at FlowParserMixin.parseMaybeUnary (/app/fy-project/node_modules/@babel/parser/lib/index.js:10818:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/app/fy-project/node_modules/@babel/parser/lib/index.js:10656:61)
+    at FlowParserMixin.parseExprOps (/app/fy-project/node_modules/@babel/parser/lib/index.js:10661:23)
+    at FlowParserMixin.parseMaybeConditional (/app/fy-project/node_modules/@babel/parser/lib/index.js:10638:23)
+    at FlowParserMixin.parseMaybeAssign (/app/fy-project/node_modules/@babel/parser/lib/index.js:10599:21)
+    at /app/fy-project/node_modules/@babel/parser/lib/index.js:5761:39
+    at FlowParserMixin.tryParse (/app/fy-project/node_modules/@babel/parser/lib/index.js:3636:20)
+    at FlowParserMixin.parseMaybeAssign (/app/fy-project/node_modules/@babel/parser/lib/index.js:5761:18)
+    at /app/fy-project/node_modules/@babel/parser/lib/index.js:10569:39
+    at FlowParserMixin.allowInAnd (/app/fy-project/node_modules/@babel/parser/lib/index.js:12244:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/app/fy-project/node_modules/@babel/parser/lib/index.js:10569:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/app/fy-project/node_modules/@babel/parser/lib/index.js:11477:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/app/fy-project/node_modules/@babel/parser/lib/index.js:5860:18)
+    at FlowParserMixin.parseExprAtom (/app/fy-project/node_modules/@babel/parser/lib/index.js:11128:23)
+    at FlowParserMixin.parseExprAtom (/app/fy-project/node_modules/@babel/parser/lib/index.js:6992:20)
+    at FlowParserMixin.parseExprSubscripts (/app/fy-project/node_modules/@babel/parser/lib/index.js:10859:23)
+    at FlowParserMixin.parseUpdate (/app/fy-project/node_modules/@babel/parser/lib/index.js:10842:21)
+    at FlowParserMixin.parseMaybeUnary (/app/fy-project/node_modules/@babel/parser/lib/index.js:10818:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/app/fy-project/node_modules/@babel/parser/lib/index.js:10656:61)
+    at FlowParserMixin.parseExprOps (/app/fy-project/node_modules/@babel/parser/lib/index.js:10661:23)
+    at FlowParserMixin.parseMaybeConditional (/app/fy-project/node_modules/@babel/parser/lib/index.js:10638:23)
+    at FlowParserMixin.parseMaybeAssign (/app/fy-project/node_modules/@babel/parser/lib/index.js:10599:21)
+    at FlowParserMixin.parseMaybeAssign (/app/fy-project/node_modules/@babel/parser/lib/index.js:5816:18)
+    at FlowParserMixin.parseExpressionBase (/app/fy-project/node_modules/@babel/parser/lib/index.js:10553:23)
+    at /app/fy-project/node_modules/@babel/parser/lib/index.js:10549:39
+    at FlowParserMixin.allowInAnd (/app/fy-project/node_modules/@babel/parser/lib/index.js:12239:16)
+    at FlowParserMixin.parseExpression (/app/fy-project/node_modules/@babel/parser/lib/index.js:10549:17)
+    at FlowParserMixin.parseReturnStatement (/app/fy-project/node_modules/@babel/parser/lib/index.js:12934:28)
+    at FlowParserMixin.parseStatementContent (/app/fy-project/node_modules/@babel/parser/lib/index.js:12581:21)
+    at FlowParserMixin.parseStatementLike (/app/fy-project/node_modules/@babel/parser/lib/index.js:12548:17)
+    at FlowParserMixin.parseStatementLike (/app/fy-project/node_modules/@babel/parser/lib/index.js:5135:24)
+    at FlowParserMixin.parseStatementListItem (/app/fy-project/node_modules/@babel/parser/lib/index.js:12528:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/app/fy-project/node_modules/@babel/parser/lib/index.js:13120:61)
+    at FlowParserMixin.parseBlockBody (/app/fy-project/node_modules/@babel/parser/lib/index.js:13113:10)
+
+ERROR in ./src/components/Screen/Home.jsx 7:0-32
+Module not found: Error: Can't resolve '../Team/Team' in '/app/fy-project/src/components/Screen'
+
+ERROR in ./src/components/Screen/Home.jsx 8:0-35
+Module not found: Error: Can't resolve '../About/About' in '/app/fy-project/src/components/Screen'
+
+ERROR in ./src/components/Screen/Home.jsx 9:0-38
+Module not found: Error: Can't resolve '../Review/Review' in '/app/fy-project/src/components/Screen'
+
+ERROR in ./src/components/Screen/Home.jsx 10:0-38
+Module not found: Error: Can't resolve '../Footer/Footer' in '/app/fy-project/src/components/Screen'
+
+ERROR in [eslint]
+src/components/Navbar/Navbar.jsx
+  Line 17:1:  Parsing error: Unexpected token (17:1)
+
+webpack compiled with 8 errors and 1 warning
