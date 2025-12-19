@@ -1,10 +1,10 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import Deals from '../Deals/Deals';
-import Team from '../Team/Team';
-import About from '../About/About';
-import Review from '../Review/Review';
-import Footer from '../Footer/Footer';
+import Team from '../team/team';
+import About from '../about/about';
+import Review from '../review/review';
+import Footer from '../footer/footer';
 
 import './Home.css';
 import { Link } from 'react-router-dom';
