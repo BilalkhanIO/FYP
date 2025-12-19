@@ -39,15 +39,8 @@
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.719);
 }
 
-<<<<<<< HEAD
-.bgimage {
-  background-image: url(../../assets/images/team.jpg);
-  width: 244px;
-  height: 300px;
-=======
 .ourteam__card_image {
   background-image: url(../../assets/images/team.jpg);
->>>>>>> 3b80b963c27854608eb7044a6dd1413cb95b42d7
   background-size: cover;
   background-position: center;
   padding: 2px;
