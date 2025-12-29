@@ -9,6 +9,7 @@ function Signup() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
+    const [isLoading, setIsLoading] = useState(false);
 
     const handleNameChange = (event) => {
         setName(event.target.value);
@@ -27,16 +28,22 @@ function Signup() {
     };
 
     const handleSubmit = (event) => {
-        // event.preventDefault();
-        //     // Perform sign up validation
-        //     console.log(
-        //         { "Signing up with email:"
-        //         {email},
-        //         " and password:"
-        //         password,
-        //         " and confirm password:"
-        //         confirmPassword}
-        //     );
+        event.preventDefault();
+        setIsLoading(true);
+
+        // Simulate a network request
+        setTimeout(() => {
+            setIsLoading(false);
+            console.log(
+                "Signing up with:",
+                {
+                    name,
+                    email,
+                    password,
+                    confirmPassword
+                }
+            );
+        }, 2000); // Simulate a 2-second delay
     };
     return (
         <form className="signup__form" onSubmit={handleSubmit}>
@@ -94,7 +101,9 @@ function Signup() {
                     />
                 </li>
                 <li className="form__list_item">
-                    <button className="form__btn" type="submit">Sign up</button>
+                    <button className="form__btn" type="submit" disabled={isLoading}>
+                        {isLoading ? 'Signing up...' : 'Sign up'}
+                    </button>
                 </li>
             </ul>
             <p className="signup__form_p">Already have an account? <Link className="signup__form_p_a" to='/login'>Log in</Link></p>
