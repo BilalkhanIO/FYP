@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FiPhone, FiTwitter, FiInstagram, FiFacebook, FiMail } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 
-import './Footer.css';
+import './footer.css';
 function Footer() {
     return (
 
