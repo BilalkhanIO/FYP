@@ -7,6 +7,7 @@ import './Login.css'
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleEmailChange = (event) => {
     setEmail(event.target.value);
@@ -18,9 +19,14 @@ function Login() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Perform login validation
-    console.log("Logging in with email:", email, " and password:", password);
+    setIsLoading(true);
 
+    // Simulate a network request
+    setTimeout(() => {
+      setIsLoading(false);
+      // Perform login validation
+      console.log("Logging in with email:", email, " and password:", password);
+    }, 2000); // Simulate a 2-second delay
   };
 
   return (
@@ -65,8 +71,11 @@ function Login() {
           <label className="form__checkbox_p" htmlFor="keepMeLoggedIn">Keep me logged in</label>
         </li>
         <li className="form__list_item">
-          <button className="form__btn" type="submit">Login</button>
-
+          <button className="form__btn" type="submit" disabled={isLoading}>
+            {isLoading ? 'Logging in...' : 'Login'}
+          </button>
+        </li>
+        <li className="form__list_item">
           <Link to='#' className="list__item_a">
             Forgot password
           </Link>
