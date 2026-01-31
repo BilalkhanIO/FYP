@@ -21,7 +21,7 @@ function Navbar() {
 
 
                 <div className='navbar__btn'>
-                    <a href='#addToCart' className='navbar__cart'>
+                    <a href='#addToCart' className='navbar__cart' aria-label="View shopping cart, 3 items">
                         <FiShoppingBag className="navbar__cart-icon" />
                         <span className='navbar__cart_span'>3</span>
                     </a>
