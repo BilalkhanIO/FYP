@@ -62,6 +62,11 @@
 .form__btn:hover {
     background-color: rgb(255, 145, 0);
 }
+
+.form__btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
 /* already have an account pharagraph */
 .signup__form_p {
     margin-bottom: 2rem;
