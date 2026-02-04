@@ -21,9 +21,9 @@ function Navbar() {
 
 
                 <div className='navbar__btn'>
-                    <a href='#addToCart' className='navbar__cart'>
-                        <FiShoppingBag className="navbar__cart-icon" />
-                        <span className='navbar__cart_span'>3</span>
+                    <a href='#addToCart' className='navbar__cart' aria-label="Shopping cart, 3 items">
+                        <FiShoppingBag className="navbar__cart-icon" aria-hidden="true" />
+                        <span className='navbar__cart_span' aria-hidden="true">3</span>
                     </a>
                     <Link to='/login' className="navbar__login">Login/Register</Link>
                 </div>
