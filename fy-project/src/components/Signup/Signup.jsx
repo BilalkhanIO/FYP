@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 
@@ -10,6 +10,15 @@ function Signup() {
     const [password, setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
     const [isLoading, setIsLoading] = useState(false);
+    const timeoutRef = useRef(null);
+
+    useEffect(() => {
+        return () => {
+            if (timeoutRef.current) {
+                clearTimeout(timeoutRef.current);
+            }
+        };
+    }, []);
 
     const handleNameChange = (event) => {
         setName(event.target.value);
@@ -32,7 +41,7 @@ function Signup() {
         setIsLoading(true);
 
         // Simulate a network request
-        setTimeout(() => {
+        timeoutRef.current = setTimeout(() => {
             setIsLoading(false);
             console.log(
                 "Signing up with:",
