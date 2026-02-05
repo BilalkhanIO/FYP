@@ -59,8 +59,14 @@
 
 }
 /* signup form submit button hover effect */
-.form__btn:hover {
+.form__btn:hover:not(:disabled) {
     background-color: rgb(255, 145, 0);
+}
+
+/* signup form submit button disabled state */
+.form__btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
 }
 /* already have an account pharagraph */
 .signup__form_p {
