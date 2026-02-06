@@ -92,8 +92,13 @@
 }
 
 /* login form subbmit button hover effect */
-.form__btn:hover {
+.form__btn:hover:not(:disabled) {
   background-color: rgb(255, 145, 0);
+}
+
+.form__btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
 }
 
 /* forgot password pharagraph */
