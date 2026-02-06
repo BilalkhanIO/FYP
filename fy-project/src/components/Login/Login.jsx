@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 
@@ -7,6 +7,16 @@ import './Login.css'
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const timeoutRef = useRef(null);
+
+  useEffect(() => {
+    return () => {
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+      }
+    };
+  }, []);
 
   const handleEmailChange = (event) => {
     setEmail(event.target.value);
@@ -18,9 +28,13 @@ function Login() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Perform login validation
-    console.log("Logging in with email:", email, " and password:", password);
+    setIsLoading(true);
 
+    // Simulate login validation
+    timeoutRef.current = setTimeout(() => {
+      setIsLoading(false);
+      console.log("Logging in with email:", email, " and password:", password);
+    }, 1500);
   };
 
   return (
@@ -65,7 +79,9 @@ function Login() {
           <label className="form__checkbox_p" htmlFor="keepMeLoggedIn">Keep me logged in</label>
         </li>
         <li className="form__list_item">
-          <button className="form__btn" type="submit">Login</button>
+          <button className="form__btn" type="submit" disabled={isLoading}>
+            {isLoading ? "Logging in..." : "Login"}
+          </button>
 
           <Link to='#' className="list__item_a">
             Forgot password
